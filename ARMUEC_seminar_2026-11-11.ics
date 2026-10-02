@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Zhang, Kai":mailto:Kai.Zhang@pnnl.gov
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Kulkarni, 
+ Gourihar R":mailto:Gourihar.Kulkarni@pnnl.gov
+DESCRIPTION:Speaker: Gourihar Kulkarni\n\nTopic: CCN Data Products at ARM: 
+ Kappa\, Vertical Profiles\, Spectra\, and Cloud-Base\n\nSpeaker profile: h
+ ttps://www.pnnl.gov/people/gourihar-kulkarni\n\nFull semiar list: https://
+ sites.google.com/view/arm-for-modelers/seminars\n\n_______________________
+ _________________________________________________________\nMicrosoft Teams
+  meeting\nJoin: https://teams.microsoft.com/meet/261694538788642?p=zR75CYn
+ iUOvyOMwpz6\nMeeting ID: 261 694 538 788 642\nPasscode: gg7Lo3NM\n________
+ ________________________\nNeed help?<https://aka.ms/JoinTeamsMeeting?omkt=
+ en-US> | System reference<https://teams.microsoft.com/l/meetup-join/19%3am
+ eeting_OGUwZGQ2ZGUtMDY3Yi00YWJmLWJkOWMtZTg2ZGMzMGVlNThh%40thread.v2/0?cont
+ ext=%7b%22Tid%22%3a%22d6faa5f9-0ae2-4033-8c01-30048a38deeb%22%2c%22Oid%22%
+ 3a%22bb62db0f-e185-494c-9338-377f20961544%22%7d>\nDial in by phone\n+1 509
+ -408-1681\,\,624772678#<tel:+15094081681\,\,624772678#> United States\, Li
+ berty Lake\nFind a local number<https://dialin.teams.cloud.microsoft/662a8
+ 517-6df4-4f06-95d6-3fa3a86b45fd?id=624772678>\nPhone conference ID: 624 77
+ 2 678#\nFor organizers: Meeting options<https://teams.microsoft.com/meetin
+ gOptions/?organizerId=bb62db0f-e185-494c-9338-377f20961544&tenantId=d6faa5
+ f9-0ae2-4033-8c01-30048a38deeb&threadId=19_meeting_OGUwZGQ2ZGUtMDY3Yi00YWJ
+ mLWJkOWMtZTg2ZGMzMGVlNThh@thread.v2&messageId=0&language=en-US> | Reset di
+ al-in PIN<https://dialin.teams.cloud.microsoft/usp/pstnconferencing>\n____
+ __________________________________________________________________________
+ __\n
+UID:040000008200E00074C5B7101A82E0080000000026F70164FD51DD01000000000000000
+ 010000000C10E0471C82E0B4FA6FC92A92B527279
+SUMMARY:Online Mini-Workshops on Observation-Model Integration #1 Gourihar 
+ Kulkarni 
+DTSTART:20261111T170000Z
+DTEND:20261111T180000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20261001T233440Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_OGUwZGQ2ZGUtMDY3Yi00YWJmLWJkOWMtZTg2ZGMzMGVlNThh%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d6faa5f9-0ae2-4033-8c01-30048a38deeb%22%2c%22O
+ id%22%3a%22bb62db0f-e185-494c-9338-377f20961544%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/d6faa5f9-0ae2-4033-8c01-30048a38deeb/bb62db0f-e185-494c-9338-3
+ 77f20961544/19_meeting_OGUwZGQ2ZGUtMDY3Yi00YWJmLWJkOWMtZTg2ZGMzMGVlNThh@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_OGUwZGQ2ZGUtMDY3Yi00YWJ
+ mLWJkOWMtZTg2ZGMzMGVlNThh@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 509-408-1681
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:624772678
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

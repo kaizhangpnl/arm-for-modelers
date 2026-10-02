@@ -235,6 +235,32 @@ a {
   line-height: 1.35;
 }
 
+.seminar-calendar {
+  margin: 16px 0 0;
+  font-size: 15px;
+}
+
+.seminar-calendar a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--orange);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.seminar-calendar a:hover,
+.seminar-calendar a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.calendar-icon {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 auto;
+}
+
 /* Tools ---------------------------------------------------------------- */
 .tools-content {
   width: min(var(--page-max), calc(100% - 80px));
